@@ -5,9 +5,177 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smsic_Home</title>
-    <link rel="stylesheet" href="style.css".
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Crete+Round">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css".>
 </head>
 <body>
+    <nav class="nav-bar">
+        <div class="nav-bar-mobile">
+            <div class="mobile-menu">
+                <div class="logo">
+                    <img alt="logo image" src="images/logo3.png">
+                </div>
+                <div class="menu-icon">
+                    <a id="show-menu" class="fa fa-bars" href="#"></a>
+                </div>      
+            </div>  
+            <div class="mobile-menu-list invisible">
+                <div class="mobile-menu folded">
+                    <div class="logo">
+                        <img alt="logo image" src="images/logo3.png">
+                    </div>
+                    <div class="menu-icon">
+                        <a id="hide-menu" class="fa far fa-window-close" href="#"></a>
+                    </div>
+                </div>     
+                <ul class="menu-list">
+                    <li><a href="index.html">Home</a></li><hr class="line">
+                    <li><a href="#activities">Activities</a></li><hr class="line">
+                    <li><a href="#about">About</a></li><hr class="line">
+                    <li><a href="#contact">Contact</a></li><hr class="line">
+                </ul>
+            </div> 
+        </div>  
+    </nav>
+    <main>
+        <section class="headline">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active" data-bs-interval="10000">
+                    <img src="images/pro.JPG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block headline-desc">
+                      <h5>FARMING</h5>
+                      <p>
+                        The Well-being of Co-operative members and their families 
+                        through farming and rearing is our Vision.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item" data-bs-interval="2000">
+                    <img src="images/project2.JPG" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block headline-desc">
+                      <h5>Family</h5>
+                      <p>
+                        Our mission is to mitigate challenges affecting our community and our families.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/ihene.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-md-block headline-desc">
+                      <h5>REARING</h5>
+                      <p>
+                        The Well-being of Co-operative members and their families 
+                        through farming and rearing is our Vision
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+        <section id="activities" class="activities">
+            <header class="activities-header">
+                <h3>Social Members Status Improvement Co-operative (SMSIC)</3>
+                <h5>ACTIVITIES</h5>
+                <div class="line"></div>
+            </header>
+            <article class="activity-card">
+                <div class="card-img"><img alt="" src="images/ihene.jpg"</div>
+                <div class="card-desc">
+                    <h3>REARING</h3>
+                    <p>The Well-being of Co-operative members and their families 
+                        through farming and rearing is our Vision.
+                        Our mission is to mitigate challenges affecting our community and our families.
+                    </p>
+                </div>
+            </article>
+            <article class="activity-card">
+                <div class="card-img"><img alt="" src="images/project2.jpg"</div>
+                <div class="card-desc">
+                    <h3>FAMILY</h3>
+                    <p>The Well-being of Co-operative members and their families 
+                        through farming and rearing is our Vision.
+                        Our mission is to mitigate challenges affecting our community and our families.
+                    </p>
+                </div>
+            </article>
+            <article class="activity-card">
+                <div class="card-img"><img alt="" src="images/pro.jpg"</div>
+                <div class="card-desc">
+                    <h3>FARMING</h3>
+                    <p>The Well-being of Co-operative members and their families 
+                        through farming and rearing is our Vision.
+                        Our mission is to mitigate challenges affecting our community and our families.
+                    </p>
+                </div>
+            </article>
+        </section>
+        <section id="about" class="about">
+            <div class="pre-about">
+                <p>EMPOWERING WOMEN AND MEN WITH THEIR CHILDREN IN THE SOURCE INCOME</p>
+            </div>
+            <div class="about-div">
+                <div class="about-us">
+                    <h3>About Us</h3>
+                    <p>
+                        Social Members Status Improvement Co-operative (SMSIC)
+                         has founded by the male and female from Nkwaki village.
+                    </p>
+                </div>
+                <div class="about-us">
+                    <h3>Location</h3>
+                    <p>
+                        Our office is located in LC I Kyabayanja village, 
+                        Kisaru Parish, Kabwoya Sub-County, Kikuube District.
+                    </p> 
+                </div>                  
+            </div>
+            <article id="contact" class="contact">
+                <p class="contact-desc">
+                    We are always interested in hearing From you Any Fedback, 
+                    any request or problem, please get in touch.
+                </p>
+                <form class="contact-form" id="cont-form" action="https://formspree.io/f/xpzbbkgv" method="post">
+                    <input type="text" id="name" name="name" class="name" placeholder="Full name" maxlength="30" required>
+                    <input type="email" id="email" name="email" class="email" placeholder="Email Address" maxlength="30" required>
+                    <textarea class="textarea" id="message" name="message" placeholder="Enter Text Here" maxlength="500" required></textarea>
+                    <div class="error-div invisible">
+                        <div class="error-message"></div>
+                        <a href="#" class="fa-window-close"></a>
+                    </div>
+                    <input type="submit" class="project-button mobile-button contact-btn" value="Get in touch">
+                </form>
+            </article>
+            <div class="line"></div>
+            <div class="about-social-link">
+                <ul class="social-media-links">
+                    <li><a class="fa fa-google" href="#"></a></li>
+                    <li><a class="fa fa-facebook" href="#"></a></li>
+                    <li><a class="fa fa-instagram" href="#"></a></li>
+                    <li><a class="fa fa-twitter" href="#"></a></li>
+                    <li><a class="fa fa-youtube" href="#"></a></li>
+                </ul>
+            </div>
+
+        </section>
+    </main>
+
+
+
+
+
     <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
