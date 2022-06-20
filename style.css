@@ -79,7 +79,7 @@ img {
 }
 
 .logo {
-  width: 30%;
+  width: 25%;
 }
 
 .menu-list {
@@ -310,6 +310,10 @@ textarea::placeholder {
 }
 
 @media (min-width: 768px) {
+  .logo {
+    width: 15%;
+  }
+
   .menu-icon {
     display: none;
   }
