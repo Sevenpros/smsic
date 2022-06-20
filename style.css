@@ -1,0 +1,277 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+.nav-bar {
+  min-height: 90px;
+  box-shadow: 0 0 15px 0 #888;
+  padding: 0 24px;
+  position: fixed;
+  z-index: 10;
+  background: white;
+  width: 100%;
+}
+
+.mobile-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 90px;
+}
+
+.folded {
+  display: flex;
+}
+
+.logo {
+  width: 30%;
+}
+
+.menu-icon a {
+  color: #172b4d;
+  padding: 14px 0;
+  text-decoration: none;
+  font-size: 24px;
+  display: block;
+}
+
+.menu-list {
+  padding: 20px 0;
+}
+
+.social-media-links a {
+  text-decoration: none;
+  color: #172b4d;
+  font-size: 24px;
+}
+
+.menu-list li a {
+  color: #172b4d;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.headline {
+  padding-top: 92px;
+}
+
+.headline-desc {
+  padding: 5px;
+  background: rgba(255, 252, 252, 0.457);
+  border-radius: 10px;
+}
+
+.headline-desc h5 {
+  font-family: 'Franklin Gothic Heavy', Courier, monospace;
+  font-size: 34px;
+  margin: 0;
+  color: #172b4d;
+}
+
+.headline-desc p {
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  color: #06132b;
+  font-weight: bold;
+}
+
+.activities {
+  padding: 20px 24px;
+}
+
+.activities-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.activities-header h3 {
+  font-family: 'Cooper Black', Courier, monospace;
+  font-size: 35px;
+  color: #172b4d;
+}
+
+.activities-header h5 {
+  font-family: 'Franklin Gothic heavy', Courier, monospace;
+  font-size: 30px;
+  margin-top: 30px;
+  color: #172b4d;
+}
+
+.activity-card {
+  min-height: 350px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px 0 #888;
+  margin: 16px 0;
+}
+
+.activity-card img {
+  border-radius: 8px;
+}
+
+.line {
+  border: 1px solid rgb(87, 87, 87);
+  margin-bottom: 24px;
+}
+
+.card-desc {
+  padding: 5px 10px;
+}
+
+.card-desc h3 {
+  text-align: center;
+  font-family: 'Franklin Gothic heavy', Courier, monospace;
+  padding: 10px 0;
+  font-size: 24px;
+  color: #172b4d;
+}
+
+.about-us h3 {
+  text-align: center;
+  font-family: 'Franklin Gothic heavy', Courier, monospace;
+  padding: 10px 0;
+  font-size: 24px;
+  color: rgb(165, 162, 162);
+}
+
+.pre-about {
+  min-height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('images/project.JPG');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 24px;
+  padding: 0 20px;
+  font-size: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+
+.pre-about p {
+  background: rgba(255, 255, 255, 0.427);
+  font-family: 'Franklin Gothic heavy', Courier, monospace;
+  color: rgb(38, 38, 38);
+}
+
+.about-div {
+  min-height: 400px;
+  background: #172b4d;
+  color: rgb(165, 162, 162);
+}
+
+.about-us p {
+  padding: 5px 20px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 30px 24px;
+}
+
+.contact-desc {
+  font-family: 'Inter', Courier, monospace;
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 20px;
+  line-height: 28px;
+  color: #172b4d;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-form .textarea {
+  height: 114px;
+  margin-bottom: 12px;
+  background: #faefec;
+  outline: none;
+  border: none;
+  padding: 12px;
+}
+
+textarea::placeholder {
+  font-family: 'Inter', Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #3c3a39;
+}
+
+.contact-form input {
+  border: none;
+  outline: none;
+  padding: 14px;
+  border-bottom: 1px solid #a1a0a0;
+}
+
+::placeholder {
+  font-size: 15px;
+  font-family: 'Inter', Courier, monospace;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #979493;
+}
+
+.contact-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 131px;
+  margin: 0 auto;
+  background: #172b4d;
+  color: white;
+  font-weight: 700;
+}
+
+.about-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 24px;
+}
+
+.social-media-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  align-items: center;
+}
+
+.invisible {
+  display: none;
+}
