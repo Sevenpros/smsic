@@ -24,7 +24,7 @@ img {
   padding: 0 24px;
   position: fixed;
   z-index: 10;
-  background: linear-gradient(45deg, #ebeb88,#fff,#f2fb8c);
+  background: linear-gradient(45deg, #ebeb88, #fff, #f2fb8c);
   width: 100%;
 }
 
