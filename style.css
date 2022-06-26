@@ -24,7 +24,7 @@ img {
   padding: 0 24px;
   position: fixed;
   z-index: 10;
-  background: white;
+  background: linear-gradient(45deg, #ebeb88, #fff, #f2fb8c);
   width: 100%;
 }
 
@@ -45,12 +45,12 @@ img {
 
 .social-media-links a {
   text-decoration: none;
-  color: #172b4d;
+  color: #0f5132;
   font-size: 24px;
 }
 
 .menu-list li a {
-  color: #172b4d;
+  color: #0f5132;
   font-size: 18px;
   font-weight: bold;
 }
@@ -61,7 +61,7 @@ img {
 
 .desktop-menu ul {
   display: flex;
-  gap: 10px;
+  gap: 4vw;
   justify-content: center;
 }
 
@@ -92,7 +92,7 @@ img {
 
 .headline-desc {
   padding: 5px;
-  background: rgba(255, 252, 252, 0.457);
+  background: rgb(245 244 170 / 71%);
   border-radius: 10px;
 }
 
@@ -100,7 +100,7 @@ img {
   font-family: 'Franklin Gothic Heavy', Courier, monospace;
   font-size: 34px;
   margin: 0;
-  color: #172b4d;
+  color: #0f5132;
 }
 
 .headline-desc p {
@@ -108,12 +108,13 @@ img {
   margin: 0;
   padding: 0;
   line-height: 24px;
-  color: #06132b;
+  color: #0f5132;
   font-weight: bold;
 }
 
 .activities {
   padding: 20px 24px;
+  background: linear-gradient(247deg, #e7fa9f91, transparent);
 }
 
 .activities-header {
@@ -126,7 +127,7 @@ img {
 .activities-header h3 {
   font-family: 'Cooper Black', Courier, monospace;
   font-size: 35px;
-  color: #172b4d;
+  color: #0f5132;
 }
 
 .activities-header h5 {
@@ -148,7 +149,7 @@ img {
 }
 
 .line {
-  border: 1px solid rgb(87, 87, 87);
+  border-bottom: 1px solid rgb(87, 87, 87);
   margin-bottom: 24px;
 }
 
@@ -191,12 +192,12 @@ img {
 .pre-about p {
   background: rgba(255, 255, 255, 0.427);
   font-family: 'Franklin Gothic heavy', Courier, monospace;
-  color: rgb(38, 38, 38);
+  color: #0f5132;
 }
 
 .about-div {
   min-height: 400px;
-  background: #172b4d;
+  background: #0f5132;
   color: rgb(165, 162, 162);
 }
 
@@ -211,6 +212,7 @@ img {
   flex-direction: column;
   text-align: center;
   padding: 30px 24px;
+  background: linear-gradient(247deg, #e7fa9f91, transparent);
 }
 
 .contact-desc {
@@ -219,7 +221,7 @@ img {
   font-weight: bolder;
   font-size: 20px;
   line-height: 28px;
-  color: #172b4d;
+  color: #0f5132;
 }
 
 .contact-form {
@@ -270,7 +272,7 @@ textarea::placeholder {
   align-items: center;
   width: 131px;
   margin: 0 auto;
-  background: #172b4d;
+  background: #0f5132;
   color: white;
   font-weight: 700;
 }
